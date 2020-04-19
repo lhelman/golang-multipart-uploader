@@ -84,6 +84,7 @@ func uploadHandler(w http.ResponseWriter, r *http.Request) {
 				return
 			}
 			successfulFiles = append(successfulFiles, part.FileName())
+			log.Print("Received " + part.FileName())
 		}
 		// displaying a success message.
 		err = templates.Execute(w, successfulFiles)

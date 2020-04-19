@@ -1,7 +1,7 @@
 # golang-multipart-uploader
 
 
-Alloes to upload files directly to any computer you can access in the network
+Allows to upload files directly to any computer you can access in the network
 
 # Running
 
